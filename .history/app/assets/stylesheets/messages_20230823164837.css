@@ -39,10 +39,6 @@ a {
   overflow: scroll;
 }
 
-.room {
-  padding: 20px 0 40px;
-}
-
 /* main-chat */
 .chat-area {
   /* height: 100vh; */
