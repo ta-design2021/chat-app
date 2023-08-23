@@ -112,7 +112,6 @@ a {
 }
 
 .form-input {
-  display: flex;
   background-color: white;
   width: 100%;
 }
@@ -132,18 +131,4 @@ a {
   height: 50px;
   margin-left: 15px;
   padding: 0 20px;
-}
-
-.form-image {
-  font-size: 12px;
-  background-color: lightblue;
-  color: white;
-  padding: 12px;
-  width: 60px;
-  margin: 5px 10px;
-  text-align: center;
-}
-
-.hidden {
-  display: none;
 }
