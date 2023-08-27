@@ -31,13 +31,11 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 
 # 20230825下記追記
-# RSpec.configure do |config|　〜　end　の外に記載しましょう。
 I18n.locale = "en"
 
 RSpec.configure do |config|
   # 20230825下記追記
   config.include SignInSupport
-
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
