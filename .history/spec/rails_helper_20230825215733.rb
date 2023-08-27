@@ -31,7 +31,6 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 
 # 20230825下記追記
-# RSpec.configure do |config|　〜　end　の外に記載しましょう。
 I18n.locale = "en"
 
 RSpec.configure do |config|
